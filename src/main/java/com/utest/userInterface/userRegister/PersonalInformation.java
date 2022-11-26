@@ -14,6 +14,7 @@ public class PersonalInformation {
     public static final Target BIRTH_DAY_SELECT = Target.the("Birth day select").located(By.id("birthDay"));
     public static final Target BIRTH_YEAR_SELECT = Target.the("Birth year select").located(By.id("birthYear"));
     public static final Target LANGUAGE_SELECT = Target.the("Language select").located(By.className("ui-select-search input-xs ng-pristine ng-valid ng-empty ng-touched"));
+    public static final Target NEXT_BUTTON = Target.the("Next button").located(By.xpath("//a[@aria-label=\"Next step - define your location\"]"));
 
 
 }
